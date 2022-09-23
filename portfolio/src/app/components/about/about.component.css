@@ -1,0 +1,29 @@
+
+section{
+    padding-top: 100px;
+    margin:auto;
+    display: flex;
+    justify-content: space-around;
+    width: 700px;
+    align-items: center;
+}
+
+.about-buttons{
+    display: flex;
+    justify-content: space-evenly;
+ 
+   
+}
+
+p{  color: #B0ADAD;
+    text-align: justify;
+    text-justify: inter-word;
+}
+.paragrafo{
+    width:450px;
+}
+img{
+    padding-right:100px;
+    width: 400px;
+    height: 400px;
+}
