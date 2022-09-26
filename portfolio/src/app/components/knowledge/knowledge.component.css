@@ -1,0 +1,40 @@
+.knowledge{
+    padding-top: 100px;
+    margin:auto;
+    display:inline-block;
+    justify-content: center;
+    
+}
+.title{
+    text-align: center;
+}
+.grid-container {
+    
+    display: grid;
+    gap: 20px 80px;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    padding-left: 80px;
+  }
+  
+.grid-item {
+    background-color: #292C36;
+    width: 480px;
+    height: 243px;
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.row-title{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    height: 60px;
+}
+
+.paragrafo p{
+    width:450px;
+    font-size:15px;
+}

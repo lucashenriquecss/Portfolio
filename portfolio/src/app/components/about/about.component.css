@@ -11,14 +11,9 @@ section{
 .about-buttons{
     display: flex;
     justify-content: space-evenly;
- 
-   
 }
 
-p{  color: #B0ADAD;
-    text-align: justify;
-    text-justify: inter-word;
-}
+
 .paragrafo{
     width:450px;
 }
