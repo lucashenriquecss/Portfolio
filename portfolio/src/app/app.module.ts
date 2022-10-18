@@ -7,8 +7,11 @@ import { AboutComponent } from './components/about/about.component';
 import { KnowledgeComponent } from './components/knowledge/knowledge.component';
 import { CardKnowledgeComponent } from './components/card-knowledge/card-knowledge.component';
 import { GithubComponent } from './components/github/github.component';
-import { CardGithubComponent } from './components/card-github/card-github.component';
+import { NgxPaginationModule } from 'ngx-pagination';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { HttpClientModule } from '@angular/common/http';
+import { MatGridListModule } from '@angular/material/grid-list';
+import { MatPaginatorModule } from '@angular/material/paginator'; 
 
 @NgModule({
   declarations: [
@@ -17,13 +20,17 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     KnowledgeComponent,
     CardKnowledgeComponent,
     GithubComponent,
-    CardGithubComponent
+    
   ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
     MatCardModule,
     MatButtonModule,
+    HttpClientModule,
+    MatGridListModule,
+    MatPaginatorModule,
+    NgxPaginationModule
   ],
   providers: [],
   bootstrap: [AppComponent]

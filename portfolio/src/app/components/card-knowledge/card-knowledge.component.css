@@ -1,21 +1,8 @@
-.grid-item {
+.example-card {
+    max-width: 300px;
     background-color: #292C36;
-    width: 480px;
-    height: 243px;
-    border-radius: 8px;
-    padding: 10px;
-    font-size: 30px;
-    text-align: center;
 }
-
-.row-title{
-    width: 100%;
+.certificado{
     display: flex;
-    text-align: center;
-    height: 60px;
-}
-
-.paragrafo p{
-    width:450px;
-    font-size:15px;
+    justify-content: center;
 }

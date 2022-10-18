@@ -1,18 +1,21 @@
 .knowledge{
     padding-top: 100px;
-    margin:auto;
-    display:inline-block;
-    justify-content: center;
-    
 }
 .title{
     text-align: center;
 }
 .grid-container {
     display: grid;
-    gap: 20px 80px;
+    gap: 20px;
     grid-template-columns: auto auto auto;
-    padding: 10px;
-    padding-left: 80px;
+    justify-content: center;
 }
   
+.example-card {
+    max-width: 300px;
+    background-color: #292C36;
+}
+.certificado{
+    display: flex;
+    justify-content: center;
+}

@@ -1,24 +1,36 @@
 .github{
     padding-top: 100px;
-    margin:auto;
-    display:inline-block;
-    justify-content: center;
-    
 }
 .title{
     text-align: center;
 }
 .grid-container {
-   
     display: grid;
-    gap: 20px 80px;
-    grid-template-columns: auto auto auto;  
-    padding-left: 80px;
+    gap: 20px;
+    grid-template-columns: auto auto auto;
+    justify-content: center; 
 }
 
-
-  
-  a {
+a {
     color: white;
     text-decoration: none;
+}
+.example-card {
+    background-color: #292C36;
+    width: 350px;
   }
+  
+  .example-header-image {
+    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+    background-size: cover;
+  }
+  .cards-git{
+    display: flex;
+    justify-content: center;
+  }
+
+.pag{
+    display: flex;
+    justify-content: center;
+    background-color: #212121;
+}
