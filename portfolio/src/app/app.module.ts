@@ -5,7 +5,6 @@ import {MatButtonModule} from '@angular/material/button';
 import { AppComponent } from './app.component';
 import { AboutComponent } from './components/about/about.component';
 import { KnowledgeComponent } from './components/knowledge/knowledge.component';
-import { CardKnowledgeComponent } from './components/card-knowledge/card-knowledge.component';
 import { GithubComponent } from './components/github/github.component';
 import { NgxPaginationModule } from 'ngx-pagination';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -18,7 +17,7 @@ import { MatPaginatorModule } from '@angular/material/paginator';
     AppComponent,
     AboutComponent,
     KnowledgeComponent,
-    CardKnowledgeComponent,
+    
     GithubComponent,
     
   ],

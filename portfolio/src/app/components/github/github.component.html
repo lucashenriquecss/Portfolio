@@ -3,28 +3,95 @@
         <h2>Projetos</h2>   
     </div>
     <div class="grid-container">
-        <mat-card class="example-card"*ngFor="let project of projects | paginate:{
-            itemsPerPage:Size,
-            currentPage:page,
-            totalItems:count}; let i =index">
-            <!-- <img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu"> -->
+        <mat-card class="example-card">
+          <img mat-card-image src="assets/img/escola.jpg" alt="">
             <mat-card-content >
-              <h2 >{{ project.name }}</h2>
+              <h2>API Escolar</h2>
               <p>
-                Projeto feito em: {{project.language}}.
+                Projeto feito em: .
+              </p>
+            </mat-card-content>
+            <mat-card-actions class="cards-git">
+              <a href="https://github.com/lucashenriquecss/Escola_Api" target="_blank"><button mat-button color="primary"><span class="material-icons">code</span></button></a>
+            </mat-card-actions>
+          </mat-card>
+          <mat-card class="example-card">
+            <img mat-card-image src="assets/img/aluraflix.jpg" alt="">
+            <mat-card-content >
+              <h2>Challenger AluraFlix</h2>
+              <p>
+                Projeto feito em: .
               </p>
             </mat-card-content>
             <mat-card-actions class="cards-git">
 
-              <a href="{{ project.html_url }}" target="_blank"><button mat-button color="primary"><span class="material-icons">code</span></button></a>
+              <a href="https://github.com/lucashenriquecss/Aluraflix_challenge" target="_blank"><button mat-button color="primary"><span class="material-icons">code</span></button></a>
               
             </mat-card-actions>
           </mat-card>
+          <mat-card class="example-card">
+            <img mat-card-image src="assets/img/receita.jpg" alt="">
+            <mat-card-content >
+              <h2>Web Receitas</h2>
+              <p>
+                Projeto feito em: .
+              </p>
+            </mat-card-content>
+            <mat-card-actions class="cards-git">
+
+              <a href="https://github.com/lucashenriquecss/Web_Receitas_Django" target="_blank"><button mat-button color="primary"><span class="material-icons">code</span></button></a>
+              
+            </mat-card-actions>
+          </mat-card>
+
+          <mat-card class="example-card">
+            <img mat-card-image src="assets/img/livros.jpg" alt="">
+            <mat-card-content >
+              <h2>API para biblioteca-Desafio DevChallenger</h2>
+              <p>
+                Projeto feito em: .
+              </p>
+            </mat-card-content>
+            <mat-card-actions class="cards-git">
+
+              <a href="https://github.com/lucashenriquecss/biblioteca-backend" target="_blank"><button mat-button color="primary"><span class="material-icons">code</span></button></a>
+              
+            </mat-card-actions>
+          </mat-card>
+          <mat-card class="example-card">
+            <img mat-card-image src="assets/img/cursos.jpg" alt="">
+            <mat-card-content >
+              <h2>API de Cursos</h2>
+              <p>
+                Projeto feito em: .
+              </p>
+            </mat-card-content>
+            <mat-card-actions class="cards-git">
+
+              <a href="https://github.com/lucashenriquecss/orm-sequelize" target="_blank"><button mat-button color="primary"><span class="material-icons">code</span></button></a>
+              
+            </mat-card-actions>
+          </mat-card>
+          <mat-card class="example-card">
+            <img mat-card-image src="assets/img/saude.jpg" alt="">
+            <mat-card-content >
+              <h2>Api de plano de saúde</h2>
+              <p>
+                Projeto feito em: .
+              </p>
+            </mat-card-content>
+            <mat-card-actions class="cards-git">
+
+              <a href="https://github.com/lucashenriquecss/Plano_de_saudeApi" target="_blank"><button mat-button color="primary"><span class="material-icons">code</span></button></a>
+              
+            </mat-card-actions>
+          </mat-card>
+          
     </div>
-    <div class="pag">
+    <!-- <div class="pag">
         <pagination-controls
             previousLabel="Prev"
             nextLabel="Next"
             (pageChange)="onDataChange($event)"></pagination-controls>
-    </div>
+    </div> -->
 </div>

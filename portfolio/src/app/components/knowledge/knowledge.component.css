@@ -7,15 +7,19 @@
 .grid-container {
     display: grid;
     gap: 20px;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto auto auto;
     justify-content: center;
 }
   
 .example-card {
-    max-width: 300px;
+    max-width: 350px;
     background-color: #292C36;
 }
 .certificado{
     display: flex;
     justify-content: center;
+}
+img{
+    width: 50px;
+    padding-right: 15px;
 }
